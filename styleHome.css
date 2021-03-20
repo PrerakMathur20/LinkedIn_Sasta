@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Open+Sans&display=swap');
+
+
+body{
+    background-color: rgb(250, 250, 250);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.gap10{
+    width: 10px;
+    height: 10px;
+}
+.signin{
+    padding-top: 15px;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+        padding-bottom: -50px;
+    font-size: xx-large;
+}
+.logo{
+    padding-top: 180px;
+    padding-right: 270px;
+    padding-bottom: 5px;
+    height: 40px;
+    width: 150px;
+}
+.stayu{
+    font-family: 'Open Sans', sans-serif;
+}
+.box{
+    margin: auto;
+    border: 10px solid turquoise;
+    width: 380px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-left: 35px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 9px;
+
+    -moz-box-shadow: 0 0 7px gray;
+    -webkit-box-shadow: 0 0 7px gray;
+    box-shadow: 0 0 7px gray;
+}
+.email{
+    height: 35px;
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.pass{
+    height: 35px;
+    width: 350px;
+    margin: auto;   
+    border-radius: 5px;
+    z-index: 2;
+    border: 1px solid black;
+}
+.show{
+    position: absolute;
+    width: 50px;
+    margin-left: -60px;
+    margin-top: 7px;
+    font-weight: 700;
+    color: rgb(46, 100, 188);
+    border: solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+.show:hover{
+    background-color: rgb(188, 239, 255);
+    color: rgb(46, 100, 188);
+    font-weight: 700;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.fgpw{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(46, 100, 188);
+    text-decoration: none ;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-radius: 10px;
+    
+}
+.fgpw:hover{
+    color: rgb(46, 100, 188);
+    background-color: rgb(188, 239, 255);
+    opacity: 0.8;
+    border-radius: 15px;
+    text-decoration: underline;
+
+}
+.login{
+    margin: auto;
+    width: 350px;
+    height: 55px;
+    border-radius: 25px;
+    background-color: rgb(46, 100, 188);
+    color: aliceblue;
+    border: none;
+
+    font-weight: 650;
+    font-size: medium;
+}
+
+.login:hover{
+    background-color: rgb(0, 36, 241);
+}
+.new{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    color: rgb(46, 100, 188);
+    font-weight: 800;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(46, 100, 188);
+    background-color: rgb(188, 239, 255);
+    opacity: 0.8;
+    border-radius: 15px;
+    text-decoration: underline;
+}
+.end{
+    text-align: center;
+    position: relative;
+    bottom: -200px;
+    color: rgb(82, 82, 82);
+    font-size: smaller;
+}
+.endbt{
+    border: none;
+    background-color: rgb(250, 250, 250);
+}
+.endbt:hover{
+    text-decoration: underline;
+}
